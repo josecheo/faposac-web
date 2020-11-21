@@ -20,27 +20,15 @@
       <img class="nav_log_img" src='./assets/nav_logo.png' alt="logo" />
     </div>
     <ul class="nav_ul">
-      <li class="nav_li">
-        IDENTIDAD
-      </li>
-      <li class="nav_li">
-        FILOSOFIA
-      </li>
-      <li class="nav_li">
-        SERVICIOS
-      </li>
-      <li class="nav_li">
-        MAQUINARIAS
-      </li>
-      <li class="nav_li">
-        PUERTOS
-      </li>
-      <li class="nav_li">
-        CLIENTES
-      </li>
-      <li class="nav_li">
-        CONTÁCTANOS
-      </li>
+      <a class="nav_li" href="#IDENTIDAD">IDENTIDAD</a>
+      <a class="nav_li" href="#FILOSOFIA">FILOSOFIA</a>
+      <a class="nav_li" href="#SERVICIOS">SERVICIOS</a>
+      <a class="nav_li" href="#MAQUINARIAS">MAQUINARIAS</a>
+      <a class="nav_li" href="#PUERTOS">PUERTOS</a>
+      <a class="nav_li" href="#CLIENTES">CLIENTES</a>
+      <a class="nav_li" href="#CONTÁCTANOS">CONTÁCTANOS</a>
+
+
     </ul>
     <div class="nav_container_img">
       <img class="nav_img" src='./assets/home.svg' alt="home" />
@@ -90,7 +78,7 @@
       <img class="arrowDown" src='./assets/arrowdown.svg' alt="arrow" />
     </div>
   </div>
-  <section id='principal-01' class="section-01">
+  <section id='IDENTIDAD' class="section-01">
     <div class="section-01_video">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/LYODWPMlMoA" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -128,7 +116,7 @@
   </section>
 
 
-  <section id='principal-02' class="section-02">
+  <section id='FILOSOFIA' class="section-02">
     <div class="section-02_container">
       <img class="" src='./assets/onda_vector.png' alt="arrow" />
       <br>
@@ -137,8 +125,6 @@
       </h1>
       <br>
       <div class="section-02_div_container">
-
-
         <!-- - -------------------------------------------------------------------- -->
         <!-- CUANDO ESTA ACTIVO -->
         <div style="display: none;" class="section-02__div_hoverOn" id="mision_container">
@@ -174,8 +160,6 @@
           </div>
         </div>
         <!-- - -------------------------------------------------------------------- -->
-
-
         <!-- - -------------------------------------------------------------------- -->
         <!-- CUANDO ESTA ACTIVO -->
         <div style="display: none;" class="section-02__div_hoverOn" id="vision_container">
@@ -211,8 +195,6 @@
           </div>
         </div>
         <!-- - -------------------------------------------------------------------- -->
-
-
         <!-- - -------------------------------------------------------------------- -->
         <!-- CUANDO ESTA ACTIVO -->
         <div style="display: none;" class="section-02__div_hoverOn" id="valores_container">
@@ -251,10 +233,124 @@
       </div>
     </div>
   </section>
+  <!-- - -------------------------------------------------------------------- -->
+  <section id='SERVICIOS' class="section-03">
+
+    <div class="section-03_container">
+      <!-- titulo -->
+      <br>
+      <h1 class="section-01_h1">
+        SERVICIOS
+      </h1>
+      <br>
+
+      <!-- opciones -->
+      <div class="slider_servicios_opciones">
+        <h1 class="section-03_h1 activeH1" onclick="mostrarMe(this)" id='AgenciaOption'>
+          Agencia marítima
+        </h1>
+        <h1 class="section-03_h1" onclick="mostrarMe(this)" id='estibaOption'>
+          Estiba / Desestiba
+        </h1>
+        <h1 class="section-03_h1" onclick="mostrarMe(this)" id='operacionesOption'>
+          Operaciones logisticas
+        </h1>
+      </div>
+
+      <!--Agencia marítima-->
+      <div class="sider_wrap fade" id='agencia'>
+        <div class="sider_div_info">
+          <div style="margin-left: 60px;">
+            <h2 class="sider_div_info_h2">
+              AGENCIA
+            </h2>
+            <h1 class="sider_div_info_h1">
+              MARÍTIMA
+            </h1>
+            <br>
+            <p class="section-03_p">
+              Proporcionar las mejores soluciones en Matarani – Mollendo (Multiboyas, GMP, Matarani /Tisur), e Ilo
+              (Multiboyas, GMP,
+              Tablones, Cata Cata/ TLT, Terminal Enersur, SPCC y Marine Trestly Terminal) de las diferentes naves
+              tanqueras,
+              graneleros,
+              containeros, multipropósito, carriers y pesqueros.
+            </p>
+          </div>
+        </div>
+        <div class="sider_div_img_maritima"></div>
+        <img class="onda_central" src='./assets/onda_vector.png' alt="arrow" />
+      </div>
+
+      <!-- Estiba / Desestiba -->
+      <div class="sider_wrap fade" id='estiba' style="display: none;">
+        <div class="sider_div_info">
+          <div style="margin-left: 60px;">
+            <h2 class="sider_div_info_h2">
+              ESTIBA
+            </h2>
+            <h1 class="sider_div_info_h1">
+              DESESTIBA
+            </h1>
+            <br>
+            <p class="section-03_p">
+              Nosotros realizamos las actividades de estiba y desestiba en las operaciones portuarias de contenedores,
+              carga rodante,
+              carga suelta, carga a granel, big bags, tuberías, planchas de acero, bobinas, estructuras, maquinaria
+              simple y pesada,
+              carga de proyecto, carga especial, etc. Para lo cual contamos con equipos, materiales y personal
+              debidamente capacitados
+              y certificados.
+            </p>
+          </div>
+        </div>
+        <div class="sider_div_img_estiba"></div>
+        <img class="onda_central" src='./assets/onda_vector.png' alt="arrow" />
+      </div>
+      <!-- Operaciones Logisticas -->
+      <div class="sider_wrap fade" id='operaciones' style="display: none;">
+        <div class="sider_div_info">
+          <div style="margin-left: 60px;">
+            <h2 class="sider_div_info_h2">
+              OPERACIONES
+            </h2>
+            <h1 class="sider_div_info_h1">
+              LOGÍSTICAS
+            </h1>
+            <br>
+            <p class="section-03_p">
+              Contamos con equipos y experiencia necesaria para ofrecer a nuestros clientes un eficiente servicio
+              logístico que supere
+              con éxito los retos de la globalización, a través de los cuales buscamos integrar más servicios y añadir
+              un
+              mayor valor
+              a sus operaciones.
+            </p>
+          </div>
+        </div>
+        <div class="sider_div_img_operaciones"></div>
+        <img class="onda_central" src='./assets/onda_vector.png' alt="arrow" />
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+  </section>
+  <!-- - -------------------------------------------------------------------- -->
+
+
+
 
 
 </body>
 <script src="js/slideshow.js"></script>
 <script src="js/filosofia.js"></script>
+<script src="js/servicios.js"></script>
 
 </html>
