@@ -278,14 +278,20 @@ height: 100%;
   align-items: center;
   width: 400px;
   height: 90%;
+    z-index: 20;
 }
 
 
+.section-02__div_hoverOn {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 90%;
 
-
-
-
-
+    z-index: 10;
+}
 
 .section-02__div_header {
   display: flex;
