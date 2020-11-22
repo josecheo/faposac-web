@@ -337,7 +337,6 @@
   <!-- - -------------------------------------------------------------------- -->
   <section id='MAQUINARIAS' class="section-04">
     <div class="maquinaria_container">
-
       <div class="maquinaria_container_second">
         <h1 class="section-04_h1">
           MAQUINARIAS
@@ -356,19 +355,116 @@
           </p>
         </div>
         <div class="maquinaria_collage">
-          <img style='width: 100%;'' src=' ./assets/Maquinarias/BARREDORA.jpg' alt="arrow" />
-          <img style='width: 100%;' src='./assets/Maquinarias/CARGADORFRONTAL.jpg' alt="arrow" />
-          <img style='width: 100%;' src='./assets/Maquinarias/clamshell.jpg' alt="arrow" />
-          <img style='width: 100%;' src='./assets/Maquinarias/TOLVA.jpeg' alt="arrow" />
-          <img style='width: 100%;' src='./assets/Maquinarias/corrales2.jpeg' alt="arrow" />
-          <img style='width: 100%;' src='./assets/Maquinarias/MONTACARGAS.jpg' alt="arrow" />
-          <img style='width: 100%;' src='./assets/Maquinarias/Tina.png' alt="arrow" />
-          <img style='width: 100%;' src='./assets/Maquinarias/TRANSPORTE.jpeg' alt="arrow" />
+          <div class="imagen-collage" style="background-image: url(../assets/Maquinarias/BARREDORA.jpg);"
+            onclick="showOverloadCollage(1)">
+            BARREDORA
+          </div>
+          <div class="imagen-collage" style="background-image: url(../assets/Maquinarias/CARGADORFRONTAL.jpg)"
+            onclick="showOverloadCollage(2)">
+            CARGADOR FRONTAL
+          </div>
+          <div class="imagen-collage" style="background-image: url(../assets/Maquinarias/clamshell.jpg);"
+            onclick="showOverloadCollage(3)">
+            CLAMSHELL
+          </div>
+          <div class="imagen-collage" style="background-image: url(../assets/Maquinarias/TOLVA.jpeg);"
+            onclick="showOverloadCollage(4)">
+            TOLVA
+          </div>
+          <div class="imagen-collage" style="background-image: url(../assets/Maquinarias/corrales2.jpeg);"
+            onclick="showOverloadCollage(5)">
+            CORRALES
+          </div>
+          <div class="imagen-collage" style="background-image: url(../assets/Maquinarias/MONTACARGAS.jpg);"
+            onclick="showOverloadCollage(6)">
+            MONTACARGAS
+          </div>
+          <div class="imagen-collage" style="background-image: url(../assets/Maquinarias/Tina.png);"
+            onclick="showOverloadCollage(7)">
+            TINA
+          </div>
+          <div class="imagen-collage" style="background-image: url(../assets/Maquinarias/TRANSPORTE.jpeg);"
+            onclick="showOverloadCollage(8)">
+            TRANSPORTE
+          </div>
         </div>
       </div>
     </div>
 
+    <div class="overloadCollage" id='overloadCollage' style="display: none;">
+      <div class="sub_overloadCollage">
+        <div class="mySlidesMaquinaria fade">
+          <div class="containermySlides">
+            <img src="./assets/Maquinarias/BARREDORA.jpg" class="slider_img_maquinaria">
+            <div class="buttonExit" onclick="unloadOverloadCollage()">
+              X
+            </div>
+          </div>
+        </div>
+        <div class="mySlidesMaquinaria fade">
+          <div class="containermySlides">
+            <img src="./assets/Maquinarias/CARGADORFRONTAL.jpg" class="slider_img_maquinaria">
+            <div class="buttonExit" onclick="unloadOverloadCollage()">
+              X
+            </div>
+          </div>
+        </div>
+        <div class="mySlidesMaquinaria fade">
+          <div class="containermySlides">
+            <img src="./assets/Maquinarias/clamshell.jpg" class="slider_img_maquinaria">
+            <div class="buttonExit" onclick="unloadOverloadCollage()">
+              X
+            </div>
+          </div>
+        </div>
+        <div class="mySlidesMaquinaria fade">
+          <div class="containermySlides">
+            <img src="./assets/Maquinarias/TOLVA.jpeg" class="slider_img_maquinaria">
+            <div class="buttonExit" onclick="unloadOverloadCollage()">
+              X
+            </div>
+          </div>
+        </div>
+        <div class="mySlidesMaquinaria fade">
+          <div class="containermySlides">
+            <img src="./assets/Maquinarias/corrales2.jpeg" class="slider_img_maquinaria">
+            <div class="buttonExit" onclick="unloadOverloadCollage()">
+              X
+            </div>
+          </div>
+        </div>
+        <div class="mySlidesMaquinaria fade">
+          <div class="containermySlides">
+            <img src="./assets/Maquinarias/MONTACARGAS.jpg" class="slider_img_maquinaria">
+            <div class="buttonExit" onclick="unloadOverloadCollage()">
+              X
+            </div>
+          </div>
+        </div>
+        <div class="mySlidesMaquinaria fade">
+          <div class="containermySlides">
+            <img src="./assets/Maquinarias/Tina.png" class="slider_img_maquinaria">
+            <div class="buttonExit" onclick="unloadOverloadCollage()">
+              X
+            </div>
+          </div>
+        </div>
+        <div class="mySlidesMaquinaria fade">
+          <div class="containermySlides">
+            <img src="./assets/Maquinarias/TRANSPORTE.jpeg" class="slider_img_maquinaria">
+            <div class="buttonExit" onclick="unloadOverloadCollage()">
+              X
+            </div>
+          </div>
+        </div>
+        <a class="prevMaquinaria" onclick="plusSlidesMaquinaria(-1)">&#10094;</a>
+        <a class="nextMaquinaria" onclick="plusSlidesMaquinaria(1)">&#10095;</a>
+      </div>
+    </div>
+
   </section>
+
+
   <!-- - -------------------------------------------------------------------- -->
   <!-- - -------------------------------------------------------------------- -->
 
