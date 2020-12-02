@@ -161,6 +161,13 @@ flex-direction: column;
 
 
 @media (max-width: 425px) { 
+.section-01 {
+  padding: 20px 0px;
+}
+.section-05 {
+  padding: 0px;
+}
+
 .titulo_h1 {
   font-size: 65px;
 }
@@ -228,8 +235,11 @@ flex-direction: column;
   display: flex;
   flex-direction: initial;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   padding: 20px 0px;
   height: 100%;
+  width: 100%;
 }
 .onda_central {
   top: 5%;
@@ -271,7 +281,49 @@ flex-direction: column;
 .slider_img_maquinaria {
   width: 100%;
 }
+.goTo {
+  top: 25%;
+  height: 40px;
+}
+.arrowDown {
+  margin-top: 10px;
+}
 
 }
+
+@media (max-width: 320px) { 
+.section-07_h1 {
+  font-size: 24px;
+}
+.form_container {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+  padding:0px
+}
+.input_class {
+  font-size: 16px;
+  margin-left: 5px;
+  width: 75%;
+}
+.arrowLo {
+  width: 10px;
+  
+}
+.section-01_h1 {
+  font-size: 24px;
+}
+.sider_div_info_h2 {
+  font-size: 24px;
+}
+.sider_div_info_h1 {
+  font-size: 44px;
+}
+.section-03_p {
+  width: 90%;
+}
+  
+}
+
 
 
